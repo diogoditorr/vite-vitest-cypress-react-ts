@@ -1,0 +1,5 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`toThrowErrorMatchingSnapshot > hint 1`] = `"error"`;
+
+exports[`toUpperCase expect.toMatchSnapshot 1`] = `"FOOBAR"`;
