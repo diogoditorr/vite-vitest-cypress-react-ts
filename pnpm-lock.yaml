@@ -813,7 +813,7 @@ packages:
       '@babel/code-frame': 7.22.5
       '@babel/runtime': 7.22.5
       '@types/aria-query': 5.0.1
-      aria-query: 5.2.0
+      aria-query: 5.2.1
       chalk: 4.1.2
       dom-accessibility-api: 0.5.16
       lz-string: 1.5.0
@@ -827,7 +827,7 @@ packages:
       '@adobe/css-tools': 4.2.0
       '@babel/runtime': 7.22.5
       '@types/testing-library__jest-dom': 5.14.6
-      aria-query: 5.2.0
+      aria-query: 5.2.1
       chalk: 3.0.0
       css.escape: 1.5.1
       dom-accessibility-api: 0.5.16
@@ -1438,8 +1438,8 @@ packages:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
     dev: true
 
-  /aria-query@5.2.0:
-    resolution: {integrity: sha512-WkRzi93hMI7J6SwwGaHPm/l4vvO1qy3skvo+YCXJQfcMPmiUtm6i6fq/+1PwBX3zfsD2Cb8HvfrmwT3ZhtFbzg==}
+  /aria-query@5.2.1:
+    resolution: {integrity: sha512-7uFg4b+lETFgdaJyETnILsXgnnzVnkHcgRbwbPwevm5x/LmUlt3MjczMRe1zg824iBgXZNRPTBftNYyRSKLp2g==}
     dependencies:
       dequal: 2.0.3
     dev: true
@@ -5334,7 +5334,7 @@ packages:
       '@wdio/types': 8.10.4
       '@wdio/utils': 8.11.0
       archiver: 5.3.1
-      aria-query: 5.2.0
+      aria-query: 5.2.1
       css-shorthand-properties: 1.1.1
       css-value: 0.0.1
       devtools: 8.11.0(typescript@5.1.3)
