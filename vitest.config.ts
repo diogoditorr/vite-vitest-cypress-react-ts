@@ -6,8 +6,12 @@ export default mergeConfig(
     viteConfig,
     defineConfig({
         test: {
+            globals: true,
             environment: "jsdom",
-            setupFiles: [resolve(__dirname, "./test/mocking-request.ts")],
+            setupFiles: [
+                resolve(__dirname, "./test/setup.ts"),
+                resolve(__dirname, "./test/mocking-request.ts"),
+            ],
             includeSource: ["test/**/*.{js,ts}"],
             alias: {
                 "test-utils": resolve(__dirname, "./src/utils/test-utils.ts"),
