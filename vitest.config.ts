@@ -10,7 +10,7 @@ export default mergeConfig(
             environment: "jsdom",
             setupFiles: [
                 resolve(__dirname, "./test/setup.ts"),
-                resolve(__dirname, "./test/mocking-request.ts"),
+                resolve(__dirname, "./test/setupServerTests.ts"),
             ],
             includeSource: ["test/**/*.{js,ts}"],
             alias: {
