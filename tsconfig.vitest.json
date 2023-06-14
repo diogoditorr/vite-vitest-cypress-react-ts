@@ -14,7 +14,8 @@
         "lib": [],
         "types": ["vitest/globals", "vitest/importMeta", "node", "jsdom"],
         "paths": {
-            "test-utils": ["./src/utils/test-utils.ts"]
+            "@/*": ["./src/*"],
+            "test-utils": ["./src/utils/test-utils.ts"],
         }
     }
 }
