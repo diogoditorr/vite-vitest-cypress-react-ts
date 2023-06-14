@@ -1,7 +1,7 @@
 import { render, screen, userEvent } from "test-utils";
 import { Fetch } from ".";
 import { rest } from "msw";
-import { server } from "src/mocks/server";
+import { server } from "@/mocks/server";
 
 test("loads and displays greeting", async () => {
     const user = userEvent.setup();
